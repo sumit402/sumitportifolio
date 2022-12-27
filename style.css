@@ -1,0 +1,187 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.shadowed {
+    box-shadow: 1em 1em 2em #1b1a2073;
+}
+
+.bolder {
+    font-weight: 800;
+}
+
+.boldish {
+    font-weight: 600;
+}
+
+.navigation, .dropdown-item {
+    letter-spacing: .1em;
+    font-size: 0.8em;
+}
+
+.img-fluid {
+    width: 80%;
+    transition: filter 700ms;
+}
+
+.img-fluid:hover {
+    filter: opacity(0.75);
+}
+
+.bio h1 {
+    font-size: 3em;
+    transition: color 700ms;
+}
+
+.bio h1:hover {
+    color: rgb(136, 180, 255);
+}
+
+.job {
+    font-size: 1.5em;
+}
+
+.minibio {
+    line-height: 2;
+}
+
+.socials a {
+    color: #343a40;
+    letter-spacing: 1em;
+    font-size: 1.5em;
+}
+
+.socials a:hover {
+    color: rgb(136, 180, 255);
+}
+
+.menubar {
+    background-color: #d4dee9;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.window {
+    border-radius: 0 0 10px 10px;
+}
+
+.red {
+    color: #FF6057;
+}
+
+.amber {
+    color: #FFBD2E;
+}
+
+.green {
+    color: #27C93F;
+}
+
+
+.pink {
+    color: #ff77b7;
+}
+
+.desktop {
+    height: 125vh;
+}
+
+.folders {
+    text-align: center;
+}
+
+
+
+.foldertab {
+    width: 4em;
+    height: 2.5em;
+    margin-top: 1.5em;
+    position: relative;
+    background-color: #bddeff;
+    box-shadow: .5em .5em .5em rgba(0,0,0,0.2);
+}
+
+.foldertab:before {
+    content: '';
+    width: 50%;
+    height: 1em;
+    border-radius: 0.2em 0.2em 0 0;
+    background-color: #bddeff;
+    position: absolute;
+    top: -0.5em;
+}
+
+.foldertab:after {
+    content: '';
+    width: 105%;
+    height: 2.5em;
+    border-radius: .2em;
+    background-color: #90c6fc;
+    position: absolute;
+    bottom: -0.25em;
+    left: -0.1em;
+}
+
+.foldername {
+    text-shadow: .25em .25em .25em rgba(0,0,0,0.5);
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+hr {
+    width:80%;
+}
+
+#portfolio {
+    height: 100%;
+}
+
+.emoji {
+    font-size: 5em;
+}
+
+#totop {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+    text-align: center;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+
+
+.scrolled {
+    background: rgba(27, 25, 32, 0.8);
+    border-radius: 0 0px 20px 20px;
+}
+
+@media (max-width: 575.98px) { 
+    #totop {
+        bottom: 0.5em;
+        right: 0.5em;
+    }
+}
